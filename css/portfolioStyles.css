@@ -1,0 +1,141 @@
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: orange;
+  font-family:sans-serif;
+  justify-content: center;
+}
+
+.banner{
+  min-height : 100px;
+  padding:0px;
+}
+.navigation{
+  padding:0px;
+  margin: 0px;
+}
+.mainArea{
+  min-height : 150px;
+  padding : 0px;
+  margin:0px;
+}
+.mainArea p{
+  font-weight: bold;
+  color:white;
+  background-color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+.mainArea ul{
+text-align: center;
+padding-left: 5px;
+font-weight: bold;
+}
+.jumbotron{
+  background-color:
+
+  padding:0px;
+}
+
+.mainArea h5{
+  font-weight: bold;
+  color:white;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+.card-body{
+  background-color: rgb(245,255,250);
+  margin:0px;
+
+}
+.footer{
+  width: 100%;
+  /* min-height : 250px; */
+  padding : 0px;
+}
+
+
+
+.button{
+  padding:10px;
+}
+.container{
+  border: solid 10px black;
+}
+
+.row{
+  border: solid 2px black;
+  padding:0px;
+}
+
+button{
+  font-weight: bold;
+  font-family: sans-serif;
+}
+nav{
+  margin: 2px;
+  background-color: rgb(0,0,0);
+  list-style: none;
+  padding:0px;
+}
+nav ul{
+  padding: 0px;
+  display: flex;
+}
+nav ul a{
+  flex-grow: 1;
+
+}
+nav ul a:link{
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul a:visited{
+  color: black;
+}
+nav ul li{
+  list-style: none;
+  padding: 8px;
+  border: solid 1px black;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav ul a li{
+
+}
+nav ul li: hover{
+  background-color: #000;
+  color: black;
+}
+
+
+.about{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: verdana;
+  background: blue;
+}
+
+/* h4{
+  background:white;
+  color:rgb(49,49,47);
+} */
+
+.joinMailingList{
+  padding:50px;
+  background-color: #EBFFFF;
+}
+.joinMailingList h3{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background: black;
+  color: white;
+}

@@ -1,1 +1,174 @@
-<h1> hello </h1>
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> Welcome Everyone! </title>
+
+   <link rel="icon" type="image/png" href="favicon-32x32.png">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="js/custom.js"></script>
+   <link href="animate.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/portfolioStyles.css" type="text/css">
+  <script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+  <script src="jquery.min.js"></script>
+
+  <script>
+    function load() {
+             // Update the UI
+             document.getElementById("display").innerText = "Enjoy the Tunes!";
+             document.getElementById("loadBtn").disabled = "disabled";
+
+             // Load the sound
+      createjs.Sound.alternateExtensions = ["mp3"];
+             createjs.Sound.addEventListener("fileload", handleFileLoad);
+             createjs.Sound.registerSound({id:"mySound", src:"Hart.mp3"});
+    }
+
+         function handleFileLoad(event) {
+             // Update the UI
+             // document.getElementById("display").innerHTML = "Loaded: " + event.src
+             //         + " using " + createjs.Sound.activePlugin.toString();
+             document.getElementById("stopBtn").disabled = "";
+
+             // Play the loaded sound
+             createjs.Sound.play(event.src);
+         }
+  </script>
+ </head>
+ <body>
+   <div class="animated slideInDown fast alert alert-danger" id="covid" role="alert" style="margin: 0; justify:center; background-color: #EBFFFF;">
+     <input id="loadBtn" type="button" value="Begin Loading" onclick="load()"/>
+     <input id="stopBtn" type="button" value="Stop Playing" onclick="createjs.Sound.stop();" disabled="disabled" />
+     <label id="display" style="background-color:#EBFFFF;">Would you enjoy scrolling music? </label>   </div>
+   <!-- <input id="loadBtn" type="button" value="Begin Loading" onclick="load()"/>
+   <input id="stopBtn" type="button" value="Stop Playing" onclick="createjs.Sound.stop();" disabled="disabled" />
+<label id="display">Would you enjoy scrolling music?</label> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 banner">
+<img src="banner.png" style="width: 100%; height:100%;"alt="">
+    </div>
+  </div>
+
+ <div class="row">
+   <div class="col-md-12 mainArea">
+<div class="card">
+  <div class="card-body" style="background-color: #EBFFFF;">
+  <p>  Welcome! My name is Gentle, I am a junior at NYU, and here is a portfolio site! This site contains
+    all completed assignments in the Introduction to Web Design and Computer Principles course
+    offered at New York University during the Fall 2020 COVID-19 Semester. <p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-6 mainArea" style="background-color:(0,0,0);">
+  <div class="card-body" style="width: 100%; height:100%; ">
+     <p>The syllabus states: there are two primary aspects to this course.
+<ul>The first is learning how to build websites and prepare the various elements
+that comprise them.</ul> <ul> The second is understanding concepts behind computers in general
+and the Web in particular.</ul> </p>
+<p>Lecture Topics included:
+<ul>  Unix command line</ul>
+<ul>  HTML</ul>
+<ul>  CSS</ul>
+<ul>  Web graphics</ul>
+<ul>  Design and accessibility</ul>
+<ul>  Web page layout</ul>
+<ul>  Responsive design</ul>
+<ul>  Interactivity with JavaScript</ul>
+<ul>  Web forms</ul>
+<ul>  Web audio and video</ul>
+<ul>  Web hosting and domain names</ul></p>
+  </div>
+</div>
+<div class="col-md-6 mainArea">
+  <div class="card-body" style="width: 100%; height:100%;">
+
+  <!-- <div class="row">
+    <div class="col-md-12 banner">  -->
+
+      <div class="jumbotron">
+       <p class="lead">HyperLinked Below are 5 websites with their respective web pages demonstrating
+       my knowelge aquired in this course! Please enjoy!</p>
+         <nav class="col-md-12 navigation">
+           <ul class="nav justify-content-center">
+             <li class="nav-item">
+               <a class="nav-link btn btn-light" href="personal/index.html">Personal HTML/CSS</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link btn btn-info" href="interest3/index.html">Interest Site Responsive & Media Queries</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link btn btn-success" href="advertisement/index.html" >Photo Shop Assignment</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link btn btn-warning" href="gif/index.html" >Photo Shop Assignment Extra Credit Gif Site</a>
+             </li>
+
+             <li class="nav-item">
+               <a class="nav-link btn btn-info" href="cause/index.html" >Black Lives Matter Boostrap Assignment</a>
+             </li>
+
+             <li class="nav-item">
+               <a class="nav-link btn btn-light" href="index.html">Portfolio</a>
+             </li>
+           </ul>
+         </nav>
+
+       <!-- <a href="personal/index.html"> Go to Personal Site  </a>
+     <br/>
+     <a href="interest/index.html"> Go to Interest Site </a>
+     <br/>
+     <a href= "cause/index.html"> Go to Cause Site </a>
+      <br/>
+     <a href="advertisement/index.html"> Go to Advertisement Site </a>
+     <br/>
+     <a href="gif/index.html"> Go to Gif Site </a> -->
+
+     </div>
+   </div>
+ </div>
+</div>
+<div class="row">
+  <div class="col-md-12 joinMailingList">
+    <h3> Direct all inquires below!</h3>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="name" style="font-weight:bold;" >First Name</label>
+            <input type="name" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="name" style="font-weight:bold;" >Last Name</label>
+            <input type="name" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+      <div class="form-row">
+
+        <div class="form-group col-md-12">
+          <label for="inputEmail4" style="font-weight:bold;" >Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+          </div>
+          <div class="form-row">
+
+        <div class="form-group col-md-12">
+          <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text" style="font-weight:bold;">Input Text </span>
+      </div>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-secondary btn-lg btn-block">Submit</button>
+    </form>
+  </div>
+</div>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
