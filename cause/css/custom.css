@@ -1,0 +1,150 @@
+body{
+  background-image: url(../images/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: orange;
+  font-family:verdana;
+}
+
+.banner{
+  min-height : 100px;
+  padding:0px;
+}
+.navigation{
+  padding:0px;
+  margin: 0px;
+}
+.mainArea{
+  min-height : 150px;
+  padding : 0px;
+}
+.mainArea p{
+  font-weight: bold;
+  color:white;
+  background-color: black;
+  font-size: 25px;
+  font-family: verdana;
+
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    padding-bottom: 10px;
+    text-indent: 0px;
+    cursor: pointer;
+    background-color :transparent ;
+    opacity: .5;
+
+  }
+.mainArea h5{
+  font-weight: bold;
+  color:white;
+  background-color: black;
+  font-size: 30px;
+  font-family: verdana;
+}
+.thumbNails{
+  min-height : 300px;
+  padding : 0px;
+  margin:0px;
+}
+.thumbNails h5, .thumbNails p{
+  font-family:verdana;
+  font-weight: bold;
+}
+.card-body{
+  background-color: rgb(168,168,168);
+  margin:0px;
+
+}
+.footer{
+  min-height : 250px;
+  padding : 0px;
+}
+
+.footerDonation{
+  margin : 0px;
+  background-color: rgb(75,200,100);
+}
+.footerDonation h1, .footerDonation p{
+  font-weight: bold;
+  font-family: verdana;
+
+}
+.joinMailingList{
+  padding:50px;
+  background-color: orange;
+}
+.joinMailingList h3{
+  font-family: verdana;
+  font-weight: bold;
+}
+.button{
+  padding:10px;
+}
+.container{
+  border: solid 10px black;
+}
+
+.row{
+  border: solid 2px black;
+}
+
+button{
+  font-weight: bold;
+  font-family: verdana;
+}
+nav{
+  margin: 2px;
+  background-color: rgb(0,0,0);
+  list-style: none;
+  padding:0px;
+}
+nav ul{
+  padding: 0px;
+  display: flex;
+}
+nav ul a{
+  flex-grow: 1;
+
+}
+nav ul a:link{
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul a:visited{
+  color: black;
+}
+nav ul li{
+  list-style: none;
+  padding: 8px;
+  border: solid 1px black;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav ul a li{
+
+
+nav ul li: hover{
+  background-color: #000;
+  color: black;
+}
+.donationSuggestionBtn{
+   width : 500%;
+   height : 40px;
+   margin : 10px;
+}
+
+.about{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: verdana;
+  background: blue;
+}
+
+h4{
+  background:rgb(232,236,119);
+  color:rgb(49,49,47);
+}
