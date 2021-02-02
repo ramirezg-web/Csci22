@@ -1,0 +1,342 @@
+
+<h1>HW1: BASH</h1>
+<p>Reading:
+Chapters 1 and 2 , "Getting started with Web Design" and "How the Web works"
+The purpose of this assignment is to practice the following learning items:
+How to create directories and files using command line
+How to navigate a file system using command line
+How to log on to a web server ( i6 ) using SSH and command line
+How to log on to a web server ( i6 ) using SFTP and command line
+How to upload a file ( put ) to a web server ( i6 ) from your local computer
+How to download a file ( get ) from a web server to your local computer</p>
+<h2>Deliverables:</h2>
+A compressed file ( .zip or .rar ) of your project folder uploaded to the assignment page on NYUClasses, organized in the same manner as described below or something similar but to the same effect... hierarchical organization.
+An exact file system architecture on your web server account that is LIVE and accessible to the World wide web.
+
+<h2>Instructions:</h2>
+Using command line create a folder and name it 'i6_local'
+Navigate into 'i6_local' folder
+On the root of 'i6_local' create the following files and folders:
+index.html
+css/
+portfolioStyles.css
+On the root of 'i6_local' folder and create three subfolders
+personal
+interest
+cause
+Inside the i6_local/personal folder create the following files and folders:
+index.html
+css/
+custom.css
+images/
+about.html
+contact.html
+Inside the i6_local/interest folder create the following files and folders:
+index.html
+css/
+desktop.css
+tablet.css
+mobile.css
+images/
+about.html
+contact.html
+Inside the i6_local/cause folder create the following files and folders:
+index.html
+css/
+custom.css
+images/
+js/
+custom.js
+about.html
+contact.html
+Add a navigation and coming soon messages to each project's home page
+Write the HTML boiler plate on each of the index.html
+Add a "Coming Soon" message using the < h1 > tag on each index.html
+Add an image using <img> tag on each index.html
+Add a navigation only on i6_local/index.html that link to:
+personal/index.html
+interest/index.html
+cause/index.html
+Upload and publish your i6_local to the i6 Server ( if available )
+Use Terminal or an FTP program like Filezilla, Fetch or Cyberduck
+Milestones:
+Create a homepage for your portfolio project root ( 1pts )
+Landing page (portfolio/index.html) should be visible when visiting : http://i6.cims.nyu.edu/~yournetID, example: http://i6.cims.nyu.edu/~afo231/ ( 1 pts )
+Landing page should have links to each of the other sites, i.e. Personal, Interest and Cause sites ( 2 pts )
+All 4 sites should have a landing page ( 1 pts )
+Landing pages should include an image ( 2 pts )
+All files should have 644 or 755 file permissions both in the local and remote versions ( 1 pts )
+Created .html, .css and .js files using the BASH command touch ( 1 pts )
+All files uploaded to NYU Classes and i6 and made live ( 1 pts )
+Refer to the Demo Files under Resources on NYUClasses to view the boilerplate
+Repeat these steps to create your project to the public_html remote directory using SFTP.
+Log on to i6 using SFTP: sftp netID@i6.cims.nyu.edu
+Enter your password
+List all files to see what is available
+Change directory into public_html
+Run the actions mentioned above again on remote disk
+Note: When you are done, please compress the public_html folder into a .zip or .rar file and upload it to NYU Classes
+
+
+#HW2: HTML
+Reading
+Part 2: HTML STRUCTURE
+Chapters 4, 5, 6, 7, 8, 9 and 10
+Coding
+In this assignment, we are going to create
+A Home page of our Portfolio site
+( public_html/index.html )
+Personal Website ( public_html/personalSite/ ) that include:
+A Home page
+a Resume or a Photo Gallery
+
+
+Original Pages (Personal Site) The core of this assignment is to make web pages using HTML, using proper HTML syntax including spelling, nesting, opening and closing tags and over all structure and content treatments.
+
+Use Sublime Text 3 to code this assignment.
+
+Here is a list of required elements you should include in these two pages.
+Make use of paragraph (<p></p>) and heading (<h1></h1>, <h2></h2>, etc.) tags to treat text on each page.
+Make use of hyperlinks
+
+<a href='INSERT_PATH'></a>
+
+to link from your portfolio home page to your personal site and there should be a navigation <nav> with a list <ul><li></li><li></li></ul> containing hyperlinks on both original pages that link to each other;
+Include at least one link to an external website. Using their absolute path or URL ex. http://www.nyu.edu
+Include image(s) Ex. .jpg, .jpeg, .gif, .png, .svg Download an existing image from the Web and include them in your pages using their absolute paths.
+Turn an image into a hyperlink
+Make use of Ordered and Unordered lists.
+You should include at least one table.
+Note: Pay close attention to your HTML tags in terms nesting and parsing and be sure to test your pages locally in Firefox, Safari, or Chrome Browsers.
+
+Upload Your Site
+
+Upload your files to the i6 Web Server. Use a FTP application such as FileZilla to upload your files to i6. Your files should go in your home directory, usually named after your NetID. Test your files again using Firefox, Safari, or Chrome by going to http://i6.cims.nyu.edu/netID.
+
+Submitting Your Assignment
+
+Submit the following via NYU Classes.
+
+The URL to your pages in the form of http://i6.cims.nyu.edu/~netid/
+
+A compressed file containing all the files of your new website
+
+Grading
+
+This assignment is worth 10 points
+Three new Web pages: one home page and two original pages about the student. (3 points)
+Pages should contain both paragraph and heading text. (1 point)
+An image (GIF, JPG, or PNG) on one or both of the original pages (1 point)
+At least three hyperlinks from text and one hyperlink from an image. These should clearly point between the new pages and to another site. (0.5 point each for a total of 2 points)
+At least one list (1 point)
+At least one table (1 point)
+Properly formed HTML tags (1 point)
+
+
+HW 3 Instructions
+Write your CSS document using a plain text editor (such as Text Wrangler on a Mac or Notepad++ on a PC).
+Here is a list of required elements to include.
+Create an external style sheet (.css document) with at least three different kinds of style rules and link it to all your original HTML pages.
+Your style rules should specify font family and font size for paragraph and heading text.
+Your style rules should specify link states including link, visited, focus, hover, and active.
+You should also specify either a background image or background color for your pages.
+At least one HTML page should also include an embedded style sheet (within the head section of the document, below the external style sheet link) with at least two style rules.
+Beyond these requirements, feel free to include additional CSS to design your pages as you like! Remember to test your pages locally using Firefox, Chrome, or Safari as you go along.
+Uploading Your Site
+Upload your files (including the HTML, CSS, and image files) to the i6 Unix server with an SFTP client. Your files should go in the public_html directory. Test your files againonce they are “live” on the Web server to make sure they are accessible.
+Submitting Your Assignment
+Submit the following via NYU Classes.
+The URL to your pages in the general form of: http://i6.cims.nyu.edu/~netid/
+A compressed archive containing all the files (HTML, CSS, and images) of your website
+Grading
+This assignment is worth 10 points.
+An external style sheet (.css document) with at least three different kinds of style rules, linked to student's original HTML pages. (3 points)
+At least one HTML page should also include an embedded style sheet-within the head section of the document-with at least two style rules. (2 points)
+Style rules should specify font family and font size. (2 points)
+Style rules should specify link states: link, visited, focus, hover, and active. (2 points)
+A background image or background color should also be specified for the pages. (1 point)
+
+
+
+#HW4: Graphics Readings:
+23,24,25
+Did you ever want to see yourself at the top of Mount Everest, walking on a rainbow, or hanging out with world leaders at a global summit? In this assignment, you can!
+Instructions
+Create a picture of yourself that has been made using layers. The picture should feature you placed in an unlikely, unique, or impossible location. There should be at least five layers - including the picture of yourself - and one of these should be a text layer with your name. Try to make the image as realistic as possible, given its imaginary nature. You might place yourself in the Arctic, climbing a national monument, walking on the moon, or standing beside a celebrity.
+Pay attention to the edges of objects, shadows, and lighting as well as to the proportions of your objects. Use a variety of tools to enhance your image - there are many available in Photoshop and you are encouraged to explore them. Have fun with this assignment and feel free to be imaginative!
+Saving Your Work
+Save your original project file, layers intact, in Photoshop (PSD) format. Then, when your work is complete, use Save for Web to create a JPG or PNG file suitable for the Web.
+Submitting Your Assignment
+Publish the JPG or PNG on your i6 website and link to it from your assignments directory. Submit the following via NYU Classes.
+Paste the URL to the image on i6 in the assignment's text box. Upload your PSD project file to NYU Classes. The upload may take time; wait for confirmation before closing the browser window.
+Grading
+This assignment is worth 10 points.
+Photoshop project with at least 5 different layers of content (5 points - 1 per layer)
+An image of the student, decontextualized and placed in a new location (1 point)
+A text layer with the student's name (1 point)
+Original project file (in PSD format) submitted via NYU Classes (1 point)
+Good use of Photoshop tools as evidenced in the project file submitted (1 point)
+JPG or PNG posted to student's website on i6 (1 point)
+
+Optional Readings:
+Photoshop CC Visual Quickstart Guide
+Workspace Ch. 5
+Panels & Settings, Ch. 6
+Layer Essentials, Ch. 8
+Selections & Masks, Ch. 9
+Adjustments, Ch. 12
+Combining Images, Ch. 13
+Fun With Layers, Ch. 17
+Filters, Ch. 18
+Type, Ch. 19
+Layer Styles, Ch. 20
+Print & Export, Ch. 25 (pg.491-495)
+
+
+
+#HW5: Wireframe/Prototype
+Reading
+Part 3
+Chapter 16, 17, 18, 19, 20
+In this assignment, you will create a website wireframe by hand and prototype it with HTML and CSS. This design will serve as the basis for your next website.
+Part 1
+Using pencil and paper or collage, create a page layout that represents the design of your next website. This is an opportunity for you to make design decisions before applying them with code. The layout should include text, images, and navigation. You need not concern yourself with specific content at this stage; instead, focus on the arrangement of compositional elements on the page. When you have completed your handmade wireframe, take a picture of it or scan it so that you have a digital image of your work.
+Part 2
+Now that you have an idea of what your page should look like, prototype it with HTML and CSS. This is still part of the wireframing process so you don't need to work with content-specific images and text-here is some placeholder text and a placeholder image that you can use. Your goal is to translate the drawing/collage you made in Part 1 with HTML and CSS code. To that end, you should incorporate the CSS flex and position properties in your stylesheet. When you have completed your prototypal wireframe, upload the page to i6.
+Submitting Your Assignment
+Submit the following via NYU Classes.
+A digital photo or scan of your handmade wireframe
+The URL to your wireframe page on i6
+A compressed archive containing all the files of your HTML and CSS wireframe
+Grading
+This assignment is worth 10 points.
+A digital image of the student's handmade website wireframe (1 point)
+The handmade wireframe should thoughtfully represent the layout of text, image, and navigation (3 points)
+An HTML and CSS prototype of the wireframe, published to i6 (3 points)
+The prototypal wireframe should be a good translation of the handmade wireframe (1 point)
+The CSS flex property should be applied to the layout (1 point)
+The CSS position property should be applied to the layout (1 point)
+Extra Credit: Design and provide a flowchart image created with DRAW.io
+
+#HW6: Responsive Web
+In this assignment, you will create a new website that incorporates CSS media queries into the design. This will allow your page layout to change based on whether a visitor to your site is using a smartphone, tablet, or desktop computer. With media queries, you can anticipate and design for a variety of viewing experiences.
+New Website
+Using the design you created in the Wireframing assignment as your guide, create a new website of at least four pages. The subject matter of the site is up to you but should be a topic of academic interest—whether related to your major or an area of specialized knowledge. Each of the web pages should include images and/or text and there should be clear navigation between each of the pages.
+Media Queries
+Next, you will create three different CSS style sheets: "mobile.css," "tablet.css," and "desktop.css." Link to your external style sheets with the following code. This goes inside the head section of each of your HTML documents.
+<!-- Media query for narrow browser width -->
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+<!-- Media query for medium browser width -->
+<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+<!-- Media query for full browser width -->
+<link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+<!-- Prevent smartphones from scaling pages down -->
+<meta name="viewport" content="initial-scale=1">
+
+As the comments indicate, these media queries assess a viewer's browser width and use that information to determine which of three style sheets to use for the page: mobile.css, tablet.css, or desktop.css. Make sure these links match your CSS file names and their location.
+Alternate Style Sheets
+Now that your Web pages have the flexibility to access different style sheets, the next step is to optimize the layout with CSS for each of the widths specified. For example, a three-column layout could be used for desktop viewing, a two-column layout for tablets, and a one-column layout for smartphones. You should structure your HTML code with div tags in order to align sections of content alongside each other when appropriate. In addition to layout changes, feel free to tweak the formatting to optimize each of the three style sheets.
+Here is a list of required elements to include.
+Add media queries to each of your HTML pages to choose among alternate style sheets. Feel free to copy and paste the code above.
+Create three separate CSS style sheets - desktop.css, tablet.css, and mobile.css - that correspond to the media queries.
+Add div tags to logical column sections of your HTML documents.
+Add style rules that allow your divs to align next to each other.
+Modify each style sheet for optimal viewing with different browser widths.
+Submitting Your Assignment
+Upload your site files to the i6 Unix server. Your files and directories should go in the i6 directory called "public_html." Test your pages again once they are live on the Web server, varying browser width to observe style changes.
+Submit the following via NYU Classes.
+The URL to your assignment in the general form of: http://i6.cims.nyu.edu/~netid/
+
+A compressed archive containing all the files (HTML, CSS, and images) of your website
+Grading
+This assignment is worth 10 points.
+A new website of at least five HTML pages with images, text, and hyperlinks (4 points)
+Media queries on each page and three different style sheets associated with the media queries (3 points)
+HTML div tags added to logical sections of the HTML on all pages (1 point)
+The CSS flex property used to position div sections next to other sections (1 point)
+Smartphone layout should be optimized for narrow browser widths; tablet and desktop layouts should be optimized for wider browsers (1 point)
+
+
+#HW7: Bootstrap
+Reading
+Chapter 21 and 22
+In this assignment, you will create a new website using the front end Web framework, Bootstrap.
+Getting Started
+To get started, you will install Bootstrap and make a copy of the Bootstrap starter template.
+Install Bootstrap.
+Make a project folder called "causeSite," where you will put all your files for this assignment.
+Follow instructions for installing Bootstrap. This is simply a matter of downloading a copy of the Bootstrap files and placing them into your project folder. Your bootstrap folder should end up with three sub-folders: css, fonts, and js.
+Create an HTML page.
+Copy and paste the HTML source code for the Bootstrap starter template, and save it into your own HTML file named "index.html" in your project folder
+Edit this HTML code and modify the link to the "Bootstrap core CSS" file so that it correctly points to the CSS file where you have saved it when you installed bootstrap, which is css/bootstrap.min.css
+Edit this HTML code and modify the link to the "Custom styles for this template" so that it points to a new file you will make, which is css/custom.css
+Create a custom CSS file.
+Copy and paste the CSS source code used by the Bootstrap starter template; save it into a new CSS file named "custom.css" within your css folder.
+You will add all your custom CSS for this assignment to this file.
+Open the HTML page you made in your web browser. Make sure it looks just like the starter template example before proceeding.
+Leveraging Bootstrap's Features
+Familiarize yourself with the various aspects of working with Bootstrap, including the following.
+The built-in CSS classes that can be used to create custom layouts, including grid-based layouts with responsive layouts features
+The built-in CSS classes that can be used to style common user interface components, such as buttons, links, navbars, and thumbnail images
+The built-in CSS classes that can be used to create interactive widgets, such as carousels, tabs, and drop-down menus
+Customizing the Default Theme
+You can quickly and easily change the default style of components and interactive widgets by following the customization workflow outlined on the Bootstrap site.
+For each element you want to customize, find its code in the compiled Bootstrap CSS
+Copy the component's selector and styles and paste them in your custom stylesheet. For instance, to customize the navbar background, just copy the .navbar style specification.
+In your custom stylesheet, edit the CSS you just copied from the Bootstrap source.
+Continue this process until you're happy with your customizations and have reached your design goals.
+Requirements
+Here is a list of required elements to include.
+Create at least 3 pages of content with a consistent style
+Create the general page layout on each page using Bootstrap's grid layout features
+Use a single Bootstrap navigation component on all pages to allow visitors to browse among the 3 pages
+Create at least 2 layouts using Bootstrap's responsive design features: one for mobile devices and one for desktop computers
+Use Bootstrap's carousel widget, including at least three images
+Customize at least 3 Bootstrap components on each page
+Beyond these requirements, feel free to explore Bootstrap and take this project as far as you would like! Sites that demonstrate extra effort, thoughtfulness, and creativity will be considered for extra credit.
+Submitting Your Assignment
+Upload your website files to the i6 web server with an SFTP client. Test your files once they are live on the Web to make sure they are accessible. Submit the following via NYU Classes.
+The URL to your pages in the general form of: http://i6.cims.nyu.edu/~netid/bootstrap/
+A compressed archive containing all the files of your website
+Grading
+This assignment is worth 10 points.
+A Bootstrap-powered website of at least three different pages (3 points)
+A single Bootstrap navigation component on all pages (1 point)
+A Bootstrap grid system for page layout (2 points)
+At least two layouts for responsive design: one for mobile devices and one for desktop computers (1 point)
+A Bootstrap carousel widget with at least three images (1 point)
+At least three custom Bootstrap components on each page (2 points)
+Extra credit (1-3 points)
+
+#HW8: jQuery
+In this assignment you will use jQuery to add interactivity to your website from Assignment 3, Assignment 6 or Assignment 8.
+Instructions
+Create a new version of your website from Assignment 3 (about you) or Assignment 6 (about a topic of academic interest) or Assignment 8 (about a cause). Feel free to make revisions to the site if necessary. Using the JavaScript library, jQuery, add a new layer of interactivity to your website.
+
+Here is a list of requirments for this assignment
+A new version of your website from Assignment 3 or Assignment 6
+The jQuery library should be included with your website files along with an external .js file with your jQuery code
+Wrap your script in a jQuery ready event
+Use jQuery syntax to access elements
+Use jQuery syntax to update element content
+Use jQuery syntax to update element style
+Use jQuery syntax to apply an effect to an element
+Incorporate a third party library, examples: the Retina.js library to offer images that are twice as large for high-resolution screens, VelocityJS to add more UI/UX effects like "shake", soundJS to add sound to your site and web applications.
+
+Submitting Your Assignment
+Upload your website files to the i6 web server with an SFTP client. Test your files once they are live on the Web to make sure they are accessible. Submit the following via NYU Classes.
+The URL to your pages in the general form of: http://i6.cims.nyu.edu/~netid/bootstrap/
+A compressed archive containing all the files of your website
+Grading
+This assignment is worth 10 points.
+A new version of the student’s website from assignment 3 or assignment 6 or assignment 8 (1 point)
+jQuery library included with the website files and an external .js file with jQuery code (1 point)
+Script should be wrapped in a jQuery ready event (1 point)
+jQuery syntax to access elements (1 point)
+jQuery syntax to update element content (1 point)
+jQuery syntax to update element style (1 point)
+jQuery syntax to apply an effect to an element (1 point)
+Use of a third party JS library. Ex. Retina.js, VelocityJS, soundJS, etc (3 points)
